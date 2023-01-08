@@ -5,7 +5,11 @@ void ofApp::setup(){
     ofBackground(0, 0, 0);
     ofSetCircleResolution(32);
     ofEnableAlphaBlending();
-    ofSetFrameRate(60);
+    ofSetFrameRate(30);
+
+    //change a circle position
+    myBall.setPos(glm::vec2(300,300));
+    myBall.setRadius(200);
 }
 
 //--------------------------------------------------------------
