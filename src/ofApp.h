@@ -22,6 +22,6 @@ public:
     void dragEvent(ofDragInfo dragInfo);
     void gotMessage(ofMessage msg);
     
-    Ball myBall;
+   vector <Ball> balls;
     
 };
